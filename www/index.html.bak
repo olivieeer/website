@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JAVA web developpement Freelance Lille Olivier CALLENS">
+    <meta name="author" content="Olivier CALLENS">
+
+    <title>Freelance - Olivier CALLENS</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="js/xml2json.js"></script>
+    <![endif]-->
+	<script>
+	
+	var app = angular.module("myApp",[]);
+		app.controller("myCtrl", ['$scope', '$http',
+		  function ($scope, $http) {
+		  
+			$scope.sometext ="sometext";
+		}]);	
+	</script>
+</head>
+
+<body id="page-top" class="index" ng-app="myApp">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+
+        <div class="navbar-header page-scroll">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" style="font-family: verdana" href="#page-top"><span
+                    class="glyphicon glyphicon-home inline" aria-hidden="true"></span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#Experience">Experiences</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#portfolio">Formation</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#competences">Competences</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#Services">Services</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li class="pull-right">
+                    <a href="./CV.html"><img id="betaimage" class="img-responsive inline" src="img/betaImage.png"
+                                             alt="version beta du site"/></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive img-rounded borderRadius grow" src="img/olivier_callens.jpg"
+                     alt="photo olivier callens">
+                <br />
+                <br />
+                <div class="intro-text">
+                    <span class="name blueText rotate">Olivier CALLENS</span>
+                    <br />
+                    <br />
+                    <span class="skills blueText">Ingénieur d'études et développement - Web Developpement - User Experience</span>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="Experience">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Experiences</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-group">
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Depuis Mai 2014 :</span> &nbsp;&nbsp;&nbsp;&nbsp;Centre de service <span
+                            class="entrepriseName">proxiad</span><br />
+                        Mise en place du nouveau socle de web développement AngularJs, node.js, jasmine.
+						<br />Etude du futur palier technique HTML 5 / CSS 3 / AngularJS / Bootstrap.
+						<br />Obtention de certifications: HTML5/CSS3, Bootstrap.
+                    </P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Décembre 2011 à avril 2014 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">Oxylane (Décathlon)</span><br />
+                        Responsable d'application EREP, Responsable de la validité des prix et stocks magasins et des
+                        prix centraux sur les sites WEB décathlon.</P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Sept 2010 à Novembre 2011 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">AUCHAN</span><br />
+                        Développement d'une application en Java / Struts / Hibernate de gestion des engagements des
+                        magasins du groupe.</P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Avril 2009 à Aout 2010 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">Groupe ADEO Leroy Merlin</span><br />
+                        Développement d'évolutions, maintenance et corrections de bugs du logiciel d'encaissement
+                        "ORION".</P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Sept 2008 à Mars 2009 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">COFIDIS</span><br />
+                        Analyse et développement de la refonte de l'espace client recouvrement du site internet
+                        www.cofidis.fr<br />
+                        Développement d'un logiciel de traçage des fraudes sur les octrois de crédit en ligne.
+                    </P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Fév 2007 à Aout 2008 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">GIPS ARRCO</span><br />
+                        Développement d’un moteur de workflow en Java dans le cadre d’un programme de refonte du Système
+                        d'Information Retraite de l'IRCEM.<br />
+                        Pilotage du lot « Moteur EIA » d’échanges Inter-applicatifs de messages, rédaction des
+                        spécifications fonctionnelles.<br />
+                        Développement d’une application Java/Swing/XML deparamétrage du moteur de workflow.
+                    </P>
+                </li>
+                <br />
+                <li class="list-group-item itemOliv">
+                    <P><span class="dateMission">Juillet 2006 à Jan 2007 :</span> &nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="entrepriseName">ARVATO</span><br />
+                        Développement et mise en production d’applications Java (Swing) / Hibernate de gestion des
+                        abonnements pour le groupe PRISMA presse et pour Canal +.<br />
+                        Maintenance, évolutions d’applications Java (Swing) / PL/SQL de gestion des commandes et dons
+                        UNICEF et de gestion des commandes pour Sony.
+                    </P>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Formation</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <ul class="list-group">
+                <li class="list-group-item itemOliv"><P><span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp;&nbsp;
+                    2001 à 2002 : &nbsp;&nbsp;&nbsp;&nbsp;Faculté Techniek & Natuur Hogelschool Brabant, BREDA (Pays
+                    bas)<br />Master en Informatique & Réseaux «Software Engineer» (BAC+5).</P></li>
+
+                <br />
+                <li class="list-group-item itemOliv"><P><span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp;&nbsp;
+                    1999 à 2001 : &nbsp;&nbsp;&nbsp;&nbsp;<abbr title="Institut Supérieur d’Action Internationale et de
+                    Production">I.S.A.I.P </abbr>(Institut Supérieur d’Action Internationale et de
+                    Production), ANGERS<br />Chef de projet international en Informatique & Réseaux (BAC+4).</P></li>
+                <br />
+                <br />
+                <li class="list-group-item itemOliv"><P><span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp;&nbsp;
+                    1996 à 1998 : &nbsp;&nbsp;&nbsp;&nbsp;Université du Littoral, DUNKERQUE<br />DEUG <abbr title="Mathématiques et Informatique Appliquées aux Sciences">M.I.A.S</abbr> avec mention
+                    (Mathématiques et Informatique Appliquées aux Sciences).</P></li>
+            </ul>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="competences">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Compétences</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-group">
+                <br />
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;&nbsp;
+                    Langages de programmation : &nbsp;&nbsp;&nbsp;&nbsp;<span>Java (J2EE), Angularjs.</span></P></li>
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;&nbsp;
+                    Programmation Web : &nbsp;&nbsp;&nbsp;&nbsp;HTML5, CSS3, Typescript, Javascript, JQuery.</P></li>
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-object-align-bottom"
+                                                     aria-hidden="true"></span>&nbsp;&nbsp;Serveurs d’applications :
+                    &nbsp;&nbsp;&nbsp;&nbsp;Jboss, Tomcat, node.js.</P></li>
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>&nbsp;&nbsp;SGBD
+                    : &nbsp;&nbsp;&nbsp;&nbsp;Oracle, Mysql, Postgresql, MongoDb.</P></li>
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-object-align-horizontal aria-hidden="
+                                                     true"></span>&nbsp;&nbsp;Modélisation : &nbsp;&nbsp;&nbsp;&nbsp;UML,
+                    Merise.</P></li>
+                <br />
+                <li class="list-group-item itemOliv myelement"><P><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Anglais
+                    : &nbsp;&nbsp;&nbsp;&nbsp;TOEIC, TOEFL, ERASMUS à Liverpool (1999) et à High Wycombe (2000).</P>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+</section>
+
+<!-- Contact Section -->
+<section id="Services" ng-controller="myCtrl">
+  <!-- <input type="text" ng-model="sometext" />
+  
+    <h1>Hello {{ sometext }}</h1>
+    <div ng-repeat="item in jsonObject">
+
+        <ul class="list-group">
+            <br />
+            <br />
+            <li class="list-group-item"><P><span class="glyphicon glyphicon-book" aria-hidden="true"><h4>{{item.title}}</h4></span>{{item.body}}</span></P></li<
+
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Services</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3><strong>Mise en place de solutions informatiques</strong></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-lg-3 portfolio-item">
+                <img id="software" class="img-responsive icon" src="img/software.jpg" alt="">
+            </div>
+            <div class="col-sm-8 col-lg-9">
+                <br />
+                <h4><strong>Développement d'application javaEE, application Web</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;technologies:
+                Java, JSP, servlets, AngularJs, node.js<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frameworks:
+                struts, spring, hibernate, maven.</strong>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-4 col-lg-3 portfolio-item">
+                <img class="img-responsive icon" src="img/website.jpg" alt="icone site web">
+            </div>
+            <div class="col-sm-8 col-lg-9">
+                <br />
+                <h4>
+                    <strong>Création de site web responsive,</h4>
+                <h4>Mise à niveau de site web existant</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;technologies:
+                HTML5, CSS3, Bootstrap, AngularJs, Jquery, Ajax.</strong>
+            </div>
+
+        </div>
+		<br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+	<br />
+	<br />
+        <!-- <div id="detail">
+
+        </div> -->
+        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+        <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+        <!--                   <div class="col-sm-4 portfolio-item">
+                          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+
+                                  </div>
+                              </div>
+                             <img class="img-responsive inline brandImage" src="img/angular.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-4 portfolio-item">
+                          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+
+                                  </div>
+                              </div>
+                             <img class="img-responsive brandImage" src="img/spring.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-4 portfolio-item">
+                          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+
+                                  </div>
+                              </div>
+                          <img class="img-responsive brandImage" src="img/maven.jpg" alt="">
+                          </a>
+                      </<img class="img-responsive icon" src="img/website.jpg" alt=""><img class="img-responsive icon" src="img/website.jpg" alt="">div> -->
+    </div>
+
+</section>
+	<section id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Nom</label>
+                                <input type="text" class="form-control borderHover" placeholder="Nom" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Adresse Email</label>
+                                <input type="email" class="form-control borderHover" placeholder="Adresse Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Numéro de téléphone</label>
+                                <input type="tel" class="form-control borderHover" placeholder="Numéro de téléphone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control borderHover" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+				<h4>Localisation</h4>
+					<address>
+						France<br />
+						Lille, 59000<br />
+						olicallens@gmail.com<br />
+					</address>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h4>Around the Web</h4>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://stackoverflow.com/" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        <!--       <li>
+                                  <a href="http://www.viadeo.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-viadeo-circle"></i></a>
+                              </li>	 -->
+                        <li>
+                            <a href="https://fr.linkedin.com/in/olivier-callens-38865783"
+                               class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h4>Freelance informatique lille</h4>
+                    <p>website responsive, open source Bootstrap theme created by <a href="http://startbootstrap.com">Bootstrap</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; olive Website 2016
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="image d une cabine">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="image de gateau">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="image de cirque">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="image de jeu">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="image">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/submarine.png" class="img-responsive img-centered"
+                             alt="image sous marin">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/freelancer.js"></script>
+<script>
+
+   
+</script>
+
+ <!--  Google Analytics  -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-56218128-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+    </script>
+	
+</body>
+
+</html>
+

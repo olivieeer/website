@@ -1,0 +1,22 @@
+[
+	{
+		'id': 0,
+		'title': 'Fil conducteur:',
+		'content': 'A travers toutes ces missions, un fil conducteur : les formulaires de saisie et les interfaces homme - machine. J'ai débuté il y a un peu plus de 10 ans avec l'API Swing de Java (formulaires et gestion des évenements utilisateur) qui fait partie maintenant de la préhistoire informatique. Je m'intéresse aujourd'hui à design UI et l'expérience utilateur.'
+	},
+	{
+		'id': 1,
+		'title': 'Consciencieux et ordonné',
+		'content': 'J'aime le travail bien fait : produire du beau code en respectant les bonnes pratiques et les normes W3C en vigueur et ce pour mon plaisir personnel mais aussi et surtout pour la ma lisibilité et la maintenabilité de l'application.'
+	},
+	{
+		'id': 2,
+		'title': 'Evolution',
+		'content': 'Ingénieur JAVA (J2EE) de formation et confronté quotidiennement aux problématiques des interfaces Web, j'ai récemment découvert le framework AngularJs et les bibliothèques node.js. '
+	},
+	{
+		'id': 3,
+		'title': 'Passionné et Autodidacte',
+		'content': 'Je suis passionné par l'informatique, je me tiens au fait de toutes les nouveautés dans le domaine du développement Web. Je fais beaucoup de veille sur le sujet.'
+	}
+]	
